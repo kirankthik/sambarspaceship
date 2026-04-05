@@ -2,15 +2,84 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
-  <title>Categories</title>
+  <title>Categories | Sambar Spaceship</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@400;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  <header>
-    <h1>🚀 SAMBAR SPACESHIP</h1>
+
+  
+  <header class="cockpit-header">
+    
+    <div class="scanlines"></div>
+
+    
+    <div class="instrument-bar top-bar">
+      <div class="gauge gauge-left">
+        <span class="gauge-label">FUEL</span>
+        <div class="gauge-meter"><div class="gauge-fill fuel-fill"></div></div>
+      </div>
+      <div class="status-lights">
+        <span class="light light-red blink-slow"></span>
+        <span class="light light-amber blink-fast"></span>
+        <span class="light light-green pulse"></span>
+        <span class="light light-cyan pulse"></span>
+        <span class="light light-amber blink-slow"></span>
+      </div>
+      <div class="gauge gauge-right">
+        <span class="gauge-label">SAMBAR TEMP</span>
+        <div class="gauge-meter"><div class="gauge-fill temp-fill"></div></div>
+      </div>
+    </div>
+
+    
+    <div class="logo-bay">
+      <div class="logo-glow"></div>
+      <a href="/" class="logo-link">
+        <img src="/images/logo.png" alt="Sambar Spaceship Studios" class="logo-img">
+      </a>
+    </div>
+
+    
+    <nav class="ship-controls">
+      <div class="control-panel">
+        <a href="/" class="control-btn active">
+          <span class="btn-icon">◈</span>
+          <span class="btn-label">BRIDGE</span>
+        </a>
+        <a href="/comics/" class="control-btn">
+          <span class="btn-icon">◉</span>
+          <span class="btn-label">COMICS</span>
+        </a>
+        <a href="/about/" class="control-btn">
+          <span class="btn-icon">◎</span>
+          <span class="btn-label">CREW LOG</span>
+        </a>
+      </div>
+    </nav>
+
+    
+    <div class="instrument-bar bottom-bar">
+      <div class="readout">
+        <span class="readout-label">SECTOR:</span>
+        <span class="readout-value">7G-SAMBAR</span>
+      </div>
+      <div class="readout">
+        <span class="readout-label">STATUS:</span>
+        <span class="readout-value status-online">OPERATIONAL</span>
+      </div>
+      <div class="readout">
+        <span class="readout-label">COORDINATES:</span>
+        <span class="readout-value">42.069 / 80.085</span>
+      </div>
+    </div>
   </header>
-  <main>
+
+  
+  <main class="viewport">
     
 <h2>Categories</h2>
 <ul>
@@ -18,8 +87,18 @@
 </ul>
 
   </main>
-  <footer>
-    <p>Powered by sambar and stardust ✨</p>
+
+  
+  <footer class="hull-plate">
+    <div class="hull-inner">
+      <p class="hull-text">POWERED BY SAMBAR AND STARDUST ✨ &mdash; ALL SYSTEMS NOMINAL</p>
+      <div class="hull-lights">
+        <span class="hull-light"></span>
+        <span class="hull-light"></span>
+        <span class="hull-light"></span>
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>
