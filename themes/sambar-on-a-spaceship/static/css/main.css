@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: black;
+  color: #18F0FF;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #FF3DA6;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}

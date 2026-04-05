@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h2>Latest Comics</h2>
+<ul>
+  {{ range where .Site.RegularPages "Section" "comics" }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}
