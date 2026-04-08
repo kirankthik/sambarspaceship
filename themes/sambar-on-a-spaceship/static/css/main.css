@@ -687,3 +687,145 @@ a:hover {
   background-size: 4px 4px;
   pointer-events: none;
 }
+
+/* ==========================================================
+   COMIC PAGE — Single comic view
+   ========================================================== */
+.comic-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Comic header — mission briefing style */
+.comic-header {
+  background: var(--bg-control);
+  border: 1px solid var(--chrome-dark);
+  border-left: 3px solid var(--neon-magenta);
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  box-shadow: inset 0 0 30px rgba(0,0,0,0.4);
+}
+
+.comic-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.6rem;
+  color: var(--neon-magenta);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  text-shadow: 0 0 10px rgba(255,61,166,0.4);
+}
+
+.comic-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: var(--font-mono);
+  font-size: 0.45rem;
+  letter-spacing: 0.15em;
+}
+
+.meta-label {
+  color: var(--chrome-mid);
+}
+
+.meta-value {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 4px rgba(0,240,255,0.3);
+}
+
+/* Comic frame — the main image display */
+.comic-frame {
+  position: relative;
+  background: var(--bg-panel);
+  border: 2px solid var(--chrome-mid);
+  border-radius: 3px;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-shadow:
+    inset 0 0 40px rgba(0,0,0,0.5),
+    0 0 30px rgba(0,0,0,0.6),
+    0 0 2px var(--neon-cyan);
+  animation: border-glow 8s ease-in-out infinite;
+}
+
+/* Corner bolts — riveted panel feel */
+.frame-corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--chrome-light) 30%, var(--chrome-dark) 70%);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.3), 0 0 4px rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.frame-tl { top: 6px; left: 6px; }
+.frame-tr { top: 6px; right: 6px; }
+.frame-bl { bottom: 6px; left: 6px; }
+.frame-br { bottom: 6px; right: 6px; }
+
+.comic-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+}
+
+/* Comic body text */
+.comic-body {
+  background: var(--bg-control);
+  border: 1px solid var(--chrome-dark);
+  border-radius: 2px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.3);
+}
+
+.comic-body p {
+  color: var(--chrome-light);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.comic-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Back nav button */
+.comic-nav {
+  text-align: center;
+  padding: 10px 0 20px;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background: linear-gradient(180deg, var(--chrome-dark) 0%, var(--bg-panel) 100%);
+  border: 1px solid var(--chrome-mid);
+  border-radius: 3px;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--neon-orange);
+  transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+  border-color: var(--neon-orange);
+  color: var(--neon-yellow);
+  box-shadow: 0 0 12px rgba(255,140,0,0.2);
+  text-shadow: 0 0 6px rgba(255,140,0,0.5);
+}
+
+/* Responsive comic page */
+@media (max-width: 700px) {
+  .comic-title { font-size: 1.2rem; }
+  .comic-header { padding: 14px 16px; }
+  .comic-frame { padding: 4px; }
+  .frame-corner { width: 7px; height: 7px; }
+}
