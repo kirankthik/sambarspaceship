@@ -1,0 +1,143 @@
+<svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="background-color: #FF4500; font-family: monospace; font-weight: 900;">
+  <rect width="800" height="600" fill="#FF4500" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+  <g id="REACTOR_SHAKE">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 12,-12; -12,12; 15,-5; -15,8; 10,12; -10,-10; 0,0; 0,0" keyTimes="0; 0.25; 0.28; 0.32; 0.36; 0.40; 0.45; 0.48; 0.5; 1" dur="12s" repeatCount="indefinite"/>
+    <g id="BACKGROUND_PIPES">
+      <rect x="50" y="100" width="60" height="400" fill="#FFEA00" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+        <animate attributeName="fill" values="#FFEA00; #FF00FF; #FFEA00; #FF00FF; #FFEA00; #FFEA00" keyTimes="0; 0.05; 0.1; 0.15; 0.25; 1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+      <polygon points="50,130 110,180 110,210 50,160" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="50,230 110,280 110,310 50,260" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="50,330 110,380 110,410 50,360" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="50,430 110,480 110,510 50,460" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <rect x="690" y="150" width="60" height="450" fill="#FFEA00" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+        <animate attributeName="fill" values="#FFEA00; #00FFFF; #FFEA00; #00FFFF; #FFEA00; #FFEA00" keyTimes="0; 0.08; 0.13; 0.18; 0.25; 1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+      <polygon points="690,180 750,230 750,260 690,210" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="690,280 750,330 750,360 690,310" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="690,380 750,430 750,460 690,410" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="690,480 750,530 750,560 690,510" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    </g>
+    <path d="M 220 200 C 220 150, 580 150, 580 200 C 580 220, 220 220, 220 200 Z" fill="#F4F4F5" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <path fill="#FF8C00" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+      <animate attributeName="d" values="
+        M 230 200 C 230 160, 570 160, 570 200 C 570 220, 230 220, 230 200 Z;
+        M 230 200 C 230 110, 570 210, 570 200 C 570 220, 230 220, 230 200 Z;
+        M 230 200 C 300 200, 500 200, 570 200 C 570 220, 230 220, 230 200 Z;
+        M 230 200 C 350 -250, 450 -250, 570 200 C 570 220, 230 220, 230 200 Z;
+        M 230 200 C 230 160, 570 160, 570 200 C 570 220, 230 220, 230 200 Z;
+        M 230 200 C 230 160, 570 160, 570 200 C 570 220, 230 220, 230 200 Z;
+        M 230 200 C 230 160, 570 160, 570 200 C 570 220, 230 220, 230 200 Z"
+        keyTimes="0; 0.25; 0.5; 0.6; 0.75; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="300" cy="200" r="0" fill="#FF4500" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+      <animate attributeName="r" values="0; 0; 25; 0; 0; 35; 0; 0" keyTimes="0; 0.25; 0.3; 0.35; 0.4; 0.45; 0.5; 1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="195" r="0" fill="#FFEA00" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+      <animate attributeName="r" values="0; 0; 0; 25; 0; 45; 0; 0" keyTimes="0; 0.25; 0.3; 0.35; 0.4; 0.48; 0.5; 1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,6; 0,0; -15,-10; 15,10; -10,-10; 0,0; -250,-650; -250,-650; 0,0" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 440 222; -5 440 222; 5 440 222; 0 440 222; -15 440 222; 15 440 222; -10 440 222; 0 440 222; -120 440 222; -120 440 222; 0 440 222" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+        <rect x="380" y="210" width="120" height="25" rx="12" fill="#FFEA00" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+        <line x1="410" y1="210" x2="410" y2="235" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+        <line x1="450" y1="210" x2="450" y2="235" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,8; 0,-5; 0,0; 10,-10; -10,10; 5,-5; 0,0; 300,-600; 300,-600; 0,0" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 460 210; 10 460 210; -5 460 210; 0 460 210; 15 460 210; -15 460 210; 10 460 210; 0 460 210; 180 460 210; 180 460 210; 0 460 210" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+        <rect x="440" y="190" width="40" height="40" rx="8" fill="#FF00FF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,8; 0,0; -12,12; 12,-12; -6,6; 0,0; -350,-550; -350,-550; 0,0" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+      <g transform="translate(280, 210)">
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0; -15 0 0; 10 0 0; 0 0 0; -20 0 0; 20 0 0; -10 0 0; 0 0 0; -200 0 0; -200 0 0; 0 0 0" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+        <polygon points="-20,0 -10,-20 10,-20 20,0 10,20 -10,20" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,6; 0,-8; 0,0; 15,8; -15,-8; 10,12; 0,0; 250,-500; 250,-500; 0,0" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+      <path d="M 350 210 C 370 180, 410 180, 420 200 C 390 220, 360 230, 350 210 Z" fill="#39FF14" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,5; 0,0; -10,-15; 10,15; -5,-10; 0,0; -150,-400; -150,-400; 0,0" keyTimes="0; 0.1; 0.2; 0.25; 0.3; 0.35; 0.4; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+      <path d="M 300 180 C 320 160, 360 170, 350 190 C 320 200, 300 200, 300 180 Z" fill="#39FF14" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,200; 0,200; 0,-850; 0,-850; 0,200" keyTimes="0; 0.5; 0.833; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+      <path fill="#FFEA00" stroke="#09090B" stroke-width="8" stroke-linejoin="round" visibility="hidden">
+        <animate attributeName="visibility" values="hidden; hidden; visible; visible; hidden; hidden" keyTimes="0; 0.49; 0.5; 0.833; 0.84; 1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="d" values="
+          M 370 250 L 320 1200 L 380 1100 L 400 1300 L 420 1100 L 480 1200 L 430 250 Z;
+          M 370 250 L 350 1250 L 370 1050 L 400 1350 L 430 1050 L 450 1250 L 430 250 Z;
+          M 370 250 L 320 1200 L 380 1100 L 400 1300 L 420 1100 L 480 1200 L 430 250 Z"
+          dur="0.1s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 330 250 L 360 250 L 350 180 Z" fill="#FF00FF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M 440 250 L 470 250 L 450 180 Z" fill="#FF00FF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M 380 250 L 420 250 L 450 150 L 400 50 L 350 150 Z" fill="#00FFFF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="390,180 410,180 400,120" fill="#F4F4F5" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <ellipse cx="400" cy="100" rx="30" ry="10" fill="#39FF14" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+        <animate attributeName="rx" values="30; 0; 30" dur="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <circle cx="350" cy="200" r="15" fill="#FF8C00" stroke="#09090B" stroke-width="8" stroke-linejoin="round" visibility="hidden">
+      <animate attributeName="visibility" values="hidden; hidden; visible; hidden; hidden" keyTimes="0; 0.49; 0.5; 0.7; 1" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; -150,-450; -150,-450; 0,0" keyTimes="0; 0.5; 0.7; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="210" r="25" fill="#FF8C00" stroke="#09090B" stroke-width="8" stroke-linejoin="round" visibility="hidden">
+      <animate attributeName="visibility" values="hidden; hidden; visible; hidden; hidden" keyTimes="0; 0.49; 0.5; 0.75; 1" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 180,-550; 180,-550; 0,0" keyTimes="0; 0.5; 0.75; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="200" r="18" fill="#FF8C00" stroke="#09090B" stroke-width="8" stroke-linejoin="round" visibility="hidden">
+      <animate attributeName="visibility" values="hidden; hidden; visible; hidden; hidden" keyTimes="0; 0.49; 0.5; 0.8; 1" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 20,-650; 20,-650; 0,0" keyTimes="0; 0.5; 0.8; 0.99; 1" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M 220 200 C 220 230, 580 230, 580 200 L 580 250 C 700 350, 650 520, 500 550 C 400 570, 400 570, 300 550 C 150 520, 100 350, 220 250 Z" fill="#F4F4F5" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <g id="CYAN_STRIPES">
+      <polygon points="170,360 250,300 280,350 200,410" fill="#00FFFF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="450,450 550,350 590,390 490,490" fill="#00FFFF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <polygon points="350,235 400,235 380,265 330,265" fill="#00FFFF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+      <animate attributeName="fill" values="#00FFFF; #00FFFF; #F4F4F5; #00FFFF; #F4F4F5; #00FFFF; #F4F4F5; #00FFFF; #00FFFF" keyTimes="0; 0.25; 0.3; 0.35; 0.4; 0.45; 0.48; 0.5; 1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <path d="M 200 400 C 120 450, 120 580, 200 560 C 150 550, 150 460, 210 410 Z" fill="#FF00FF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+
+    <path d="M 600 350 C 680 400, 680 500, 550 560 C 650 480, 650 420, 590 360 Z" fill="#39FF14" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <polygon points="350,470 450,470 400,400" fill="#FFEA00" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <rect x="396" y="420" width="8" height="20" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="400" cy="455" r="4" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="200" cy="400" r="40" fill="#00FFFF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="200" cy="400" r="10" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="200" y1="400" x2="225" y2="380" stroke="#09090B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <animateTransform attributeName="transform" type="rotate" values="0 200 400; 45 200 400; -20 200 400; 90 200 400; 0 200 400; 120 200 400; 0 200 400" keyTimes="0; 0.05; 0.1; 0.15; 0.2; 0.25; 1" dur="12s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="600" cy="350" r="30" fill="#FF00FF" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="600" cy="350" r="8" fill="#09090B" stroke="#09090B" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="600" y1="350" x2="600" y2="325" stroke="#09090B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <animateTransform attributeName="transform" type="rotate" values="0 600 350; -50 600 350; 80 600 350; -10 600 350; 0 600 350; 0 600 350" keyTimes="0; 0.1; 0.15; 0.2; 0.25; 1" dur="12s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <g id="GLITCH_TEXT" visibility="hidden">
+    <animate attributeName="visibility" values="hidden; hidden; visible; hidden; visible; visible; hidden; visible; hidden" keyTimes="0; 0.833; 0.84; 0.88; 0.9; 0.94; 0.96; 0.98; 1" dur="12s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; -15,10; 20,-15; -10,-10; 25,20; 0,0" dur="0.1s" repeatCount="indefinite"/>
+
+    <text x="400" y="260" text-anchor="middle" font-size="64" fill="#39FF14" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+      [ TRANSMISSION ]
+      <animate attributeName="fill" values="#39FF14; #FF4500; #FF00FF; #39FF14" dur="0.2s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="400" y="340" text-anchor="middle" font-size="80" fill="#00FFFF" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+      CORRUPTED
+      <animate attributeName="fill" values="#00FFFF; #FFEA00; #FF4500; #00FFFF" dur="0.15s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="400" y="420" text-anchor="middle" font-size="48" fill="#FFEA00" stroke="#09090B" stroke-width="8" stroke-linejoin="round">
+      // BUILDING IN PROGRESS
+      <animate attributeName="fill" values="#FFEA00; #00FFFF; #39FF14; #FFEA00" dur="0.1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

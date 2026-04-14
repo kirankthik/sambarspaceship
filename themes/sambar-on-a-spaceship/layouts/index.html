@@ -1,10 +1,43 @@
 {{ define "main" }}
-<h2>Latest Comics</h2>
-<ul>
-  {{ range where .Site.RegularPages "Section" "comics" }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-  {{ end }}
-</ul>
+<div class="maximalist-marquee">
+    <div class="marquee-track">
+        <span>⚠️ CAUTION: HYPER-FERMENTATION DETECTED // SECTOR 7G IS OFFLINE // INITIATING TAMARIND OVERRIDE ⚠️ CAUTION: HYPER-FERMENTATION DETECTED // SECTOR 7G IS OFFLINE // INITIATING TAMARIND OVERRIDE ⚠️ </span>
+        <span>⚠️ CAUTION: HYPER-FERMENTATION DETECTED // SECTOR 7G IS OFFLINE // INITIATING TAMARIND OVERRIDE ⚠️ CAUTION: HYPER-FERMENTATION DETECTED // SECTOR 7G IS OFFLINE // INITIATING TAMARIND OVERRIDE ⚠️ </span>
+    </div>
+</div>
+<div class="sensor-array-header">
+    <h1>[ ORBITAL SENSOR ARRAY ]</h1>
+    <p>PAN TO EXPLORE. LINGER TO DECRYPT.</p>
+</div>
+<div class="story-canvas">
+    <div class="sambar-hero">
+        <object type="image/svg+xml" data="/svg/sambar-launch.svg" class="sambar-hero-svg"></object>
+    </div>
+    {{ range $index, $element := sort (where .Site.RegularPages "Section" "transmissions") "Weight" }}
+    <article class="story-node node-{{ add $index 1 }}">
+        <div class="node-closed">
+            <span class="blinker"></span> [ ANOMALY {{ add $index 1 }} ]
+        </div>
+
+        <div class="node-expanded">
+            <header class="expanded-header">
+                <h2>{{ .Title }}</h2>
+                <span class="log-date">LOG: {{ .Date.Format "2006-01-02" }}</span>
+            </header>
+
+            <div class="svg-stage">
+                {{ if .Params.svg_file }}
+                    {{ partial .Params.svg_file . }}
+                {{ else }}
+                    <div class="awaiting-data">[ AWAITING VISUALS ]</div>
+                {{ end }}
+            </div>
+
+            <div class="content-body">
+                {{ .Content }}
+            </div>
+        </div>
+    </article>
+    {{ end }}
+</div>
 {{ end }}

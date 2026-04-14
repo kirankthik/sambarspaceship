@@ -2,3 +2,10 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Sambar Spaceship"
 theme = "sambar-on-a-spaceship"
+
+[[cascade]]
+  [cascade._target]
+    path = "/transmissions/**"
+  [cascade.build]
+    render = "never"
+    list = "local"
